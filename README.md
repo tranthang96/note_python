@@ -6,7 +6,9 @@ lệnh pip3:
     VD
     pip3 isntatll serial -t /home/thang/package_python/serial
     như vậy path python cần add là: /home/thang/package_python/serial
-    
+  Cache pip3 trong đường dẫn ~/.cache/pip , có thể remove đường dẫn này 
+   
+   
 ADD PYTHONPATH
  C1. thêm module sys add sys.path vào python script
     vd sys.path.append('/home/thang/package_python/serial')
