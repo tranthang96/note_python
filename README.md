@@ -20,3 +20,7 @@ ADD PYTHONPATH
     #export PYTHONPATH=/home/thang/package_python/serial
     #export PYTHONPATH=/home/thang/package_python/mysql-connector
     #export PYTHONPATH=/home/thang/package_python/pyqt5
+install mysql-connector
+
+  sudo apt install python3-testresources
+  pip3 install 
