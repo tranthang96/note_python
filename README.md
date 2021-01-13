@@ -15,6 +15,8 @@ ADD PYTHONPATH
     
  C2: thêm biến PYTHONPATH vào trong file ~/.profile
     VD:
-    export PYTHONPATH=/home/thang/package_python/serial
-    export PYTHONPATH=/home/thang/package_python/mysql-connector
-    export PYTHONPATH=/home/thang/package_python/pyqt5
+    export PYTHONPATH="/home/thang/package_python/serial:/home/thang/package_python/mysql-connector:$PYTHONPATH"
+    
+    #export PYTHONPATH=/home/thang/package_python/serial
+    #export PYTHONPATH=/home/thang/package_python/mysql-connector
+    #export PYTHONPATH=/home/thang/package_python/pyqt5
