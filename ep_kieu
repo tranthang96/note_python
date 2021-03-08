@@ -1,0 +1,4 @@
+int -> byte
+
+a = 3
+b = bytes([a])
